@@ -8,11 +8,11 @@
 		<version>3.2.5</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.example</groupId>
-	<artifactId>springboot</artifactId>
+	<groupId>com.jefferson</groupId>
+	<artifactId>productsAPI</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>springboot</name>
-	<description>Demo project for Spring Boot</description>
+	<name>productsAPI</name>
+	<description>CRUD products API</description>
 	<properties>
 		<java.version>17</java.version>
 	</properties>
@@ -49,6 +49,12 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-hateoas</artifactId>
 		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-devtools</artifactId>
+		</dependency>
+
 	</dependencies>
 
 	<build>
